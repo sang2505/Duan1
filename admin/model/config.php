@@ -1,4 +1,5 @@
 <?php
+
     $mysqli = new mysqli("localhost","root","","ace_shop");
     //todo check connection
     if($mysqli->connect_error){

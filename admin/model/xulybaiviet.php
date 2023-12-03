@@ -40,6 +40,7 @@ if (isset($_POST['thembaiviet'])) {
 	while ($row = mysqli_fetch_array($query)) {
 		unlink('img_post/' . $row['img_baiviet']);
 	}
+	
 	$sql_xoa = "DELETE FROM tbl_baiviet WHERE id_baiviet ='" . $id . "'";
 	mysqli_query($mysqli, $sql_xoa);
 	header('Location:../../index.php?action=quanlybaiviet&query=lietke');

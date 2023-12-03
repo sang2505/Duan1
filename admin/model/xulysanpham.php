@@ -13,7 +13,6 @@ $mota=$_POST['mota'];
 $tinhtrang=$_POST['tinhtrang'];
 $danhmuc=$_POST['danhmuc'];
 
-
 if(isset($_POST['themsanpham'])){
 	//them
 	$sql_them = "INSERT INTO tbl_sanpham(tensp,masp,giasp,gia_sale,hinhanh,mota,tinhtrang,id_danhmuc) VALUES('".$tensanpham."','".$masp."','".$giasp."','".$giasale."','".$hinhanh."','".$mota."','".$tinhtrang."','".$danhmuc."')";
