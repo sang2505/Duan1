@@ -5,7 +5,7 @@
         <li class="navtop-item">
             <i class="fa-solid fa-phone"></i>
             <a class="navtop-item-link" href="#">
-                Hotline: +84 867699706
+                Hotline: +84 339577364
             </a>
         </li>
         <li class="navtop-item">

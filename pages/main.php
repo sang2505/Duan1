@@ -19,6 +19,7 @@
     elseif($tam == 'giohang'){
         include("main/cart.php");
     }
+    
     elseif($tam == 'baiviet'){
         include("main/post.php");
     }

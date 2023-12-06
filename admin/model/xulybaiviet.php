@@ -11,6 +11,7 @@ $noidung = $_POST['noidung'];
 $ngayviet = $_POST['ngayviet'];
 
 
+
 if (isset($_POST['thembaiviet'])) {
 	//them
 	$sql_them = "INSERT INTO tbl_baiviet(tieude,img_baiviet,tomtat,noidung,ngayviet) VALUES('" . $tieude . "','" . $img . "','" . $tomtat . "','" . $noidung . "','" . $ngayviet . "')";
@@ -45,3 +46,5 @@ if (isset($_POST['thembaiviet'])) {
 	mysqli_query($mysqli, $sql_xoa);
 	header('Location:../../index.php?action=quanlybaiviet&query=lietke');
 }
+
+?>
