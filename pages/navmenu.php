@@ -105,6 +105,7 @@ if (isset($_GET['dangxuat']) && $_GET['dangxuat'] == 1)
                 <a href="index.php?quanly=giohang" class="navmenu-icon-link">
                     <i class="fa-solid fa-cart-shopping"></i>
                 </a>
+       
             </li>
         </ul>
     </div>
